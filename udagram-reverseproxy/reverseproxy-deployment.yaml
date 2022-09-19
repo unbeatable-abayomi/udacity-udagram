@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: reverseproxy
-        image: docker.io/igwubor/reverseproxy:v1
+        image: igwubor/reverseproxy
         ports:
         - containerPort: 80
         livenessProbe:

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: docker.io/igwubor/udagram-frontend:v1
+        image: igwubor/udagram-frontend:v2
         ports:
         - containerPort: 80
         livenessProbe:

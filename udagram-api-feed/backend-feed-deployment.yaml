@@ -15,7 +15,7 @@ spec:
         service: backend-feed
     spec:
       containers:
-      - image: docker.io/igwubor/udagram-api-feed:v1
+      - image: igwubor/udagram-api-feed
         name: backend-feed
         imagePullPolicy: Always
         livenessProbe:

@@ -15,7 +15,7 @@ spec:
         service: backend-user
     spec:
       containers:
-      - image: docker.io/igwubor/udagram-api-user:v1
+      - image: igwubor/udagram-api-user
         name: backend-user
         imagePullPolicy: Always
         livenessProbe:
